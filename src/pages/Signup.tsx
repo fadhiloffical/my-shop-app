@@ -76,7 +76,6 @@ const Signup = ({ onLogin }: { onLogin: () => void }) => {
                     throw new Error("Login failed");
                 }
                 onLogin()
-                navigate("/home");
             } catch (error) {
                 alert("Failed to login. Please try again.");
             } finally {
