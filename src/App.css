@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  height: 100%;
+  width: 50%;
+  background-color: #00abc5;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+  background-color: white;
+}
+
+.right-wrapper {
+  max-width: 650px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.right-wrapper h4 {
+  margin: 5px 0;
+}
+
+.logo {
+  height: 173px;
+  width: 100px;
+  background-color: #00abc5;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-bottom: 1px solid #00abc5;
+  border-radius: 0;
+  background: transparent;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+.password-input {
+  width: 100%;
+  position: relative;
+}
+
+.password-icon {
+  position: absolute;
+  right: 5px;
+  cursor: pointer;
+}
+
+.login-button {
+  background-color: #00abc5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 35px;
+}
+
+.login-sign-link a {
+  color: #2196f3;
+  text-decoration: none;
+  transition: .3s ease all;
+}
+
+.login-sign-link a:hover {
+  color: #00abc5;
+  transition: .3s ease all;
+}
+
+.error {
+  color: red;
+}
+
+.products-wrapper {
+  height: auto;
+  float: left;
+  padding: 1rem;
+}
+
+.show-more-button-wrapper {
+  height: auto;
+  display: flex;
+  justify-content: right;
+  padding: 1.5rem;
+}

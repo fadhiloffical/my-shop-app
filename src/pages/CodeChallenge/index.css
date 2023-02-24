@@ -1,0 +1,75 @@
+.challenge-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/*  */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+pre {
+  background-color: #00abc5b5;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+.data-collection-input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.challenge-page input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-bottom: 1px solid #00abc5;
+  border-radius: 0;
+  background: transparent;
+}
+
+button {
+  background-color: #2196f3;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 170px;
+  margin-left: 25px;
+}
+
+.notes {
+  list-style-type: none;
+  text-align: left;
+  background: #00abc5b5;
+  border: 1px solid #ccc;
+  color: #fff;
+  padding: 20px;
+}
+
+.notes li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}

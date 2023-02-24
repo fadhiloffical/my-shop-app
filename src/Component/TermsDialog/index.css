@@ -1,0 +1,44 @@
+.terms-dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .terms-button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .terms-button-wrapper button {
+    background: #00abc5;
+  }
+
+  .terms-dialog {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 40%;
+    max-height: 80%;
+    overflow: auto;
+  }
+  
+  .terms-dialog h2 {
+    margin-top: 0;
+    text-transform: uppercase;
+  }
+  
+  .terms-dialog p {
+    margin-bottom: 20px;
+  }
+  
