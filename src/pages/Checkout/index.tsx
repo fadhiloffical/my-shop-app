@@ -3,14 +3,6 @@ import Product from "../../Component/Product";
 import { useSelector } from "react-redux";
 import { RootState } from "../../store";
 
-interface Product {
-  id: number;
-  title: string;
-  description: string;
-  image: string;
-  price: number;
-}
-
 const Checkout = () => {
 
   const products = useSelector((state: RootState) => state.cart.items);
