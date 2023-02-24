@@ -100,6 +100,7 @@ const Signup = ({ onLogin }: { onLogin: () => void }) => {
                                 type="text"
                                 id="username"
                                 name="username"
+                                placeholder="Username"
                                 value={formData.username}
                                 onChange={handleChange}
                             />
@@ -110,6 +111,7 @@ const Signup = ({ onLogin }: { onLogin: () => void }) => {
                                 type={showPassword ? "text" : "password"}
                                 id="password"
                                 name="password"
+                                placeholder="Password"
                                 value={formData.password}
                                 onChange={handleChange}
                             />
@@ -123,6 +125,7 @@ const Signup = ({ onLogin }: { onLogin: () => void }) => {
                                 type={showConfirmPassword ? "text" : "password"}
                                 id="confirmPassword"
                                 name="confirmPassword"
+                                placeholder="Confirm Password"
                                 value={formData.confirmPassword}
                                 onChange={handleChange}
                             />
@@ -137,6 +140,7 @@ const Signup = ({ onLogin }: { onLogin: () => void }) => {
                                 type="email"
                                 id="email"
                                 name="email"
+                                placeholder="Email"
                                 value={formData.email}
                                 onChange={handleChange}
                             />
